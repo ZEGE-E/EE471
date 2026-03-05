@@ -1,4 +1,4 @@
-# Senior Dev: Zeynep
+# Senior Dev: Zeynep vol 2
 
 def conform(value, min_val, max_val):
     """Clamps a value between min and max."""
@@ -11,6 +11,7 @@ def main():
 
 def pleaseConformOnepass(data, min_val, max_val):
     """Conforms all values in a single pass."""
+    print("This code is now better")
     return [max(min_val, min(max_val, x)) for x in data if x is not None]
 
 if __name__ == "__main__":
