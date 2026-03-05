@@ -1,4 +1,4 @@
-# This script is written by Zeynep
+# Senior Dev: Zeynep
 
 def conform(value, min_val, max_val):
     """Clamps a value between min and max."""
